@@ -134,6 +134,91 @@
   text-align: center;
 }
 
+/* weakness section */
+#weakness {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.weakness-heading {
+  width: 100%;
+  color: #666666;
+  background-color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.weakness-col1 {
+  background-color: #53444D;
+}
+
+.weakness-col2 {
+  background-color: #709285;
+}
+
+.weakness-col3 {
+  background-color: #C1A78F;
+}
+
+.weakness-col4 {
+  background-color: #C76164;
+}
+
+.weakness-h1 {
+  color: #f2e7d9;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 34px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+.weakness-p {
+  color: #fcfcfb;
+  font-weight: 300;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 24px;
+  padding-top: 5%;
+  padding-bottom: 40%;
+}
+
+/* facts section */
+#facts {
+  text-align: center;
+  background-color: black;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.facts-h1 {
+  padding-top: 0;
+  padding-bottom: 1%;
+  color: #f2e7d9;
+  font-size: 33px;
+  font-weight: 400;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.facts-h2 {
+  color: #f2e7d9;
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-bottom: 3%;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.facts-img {
+  height: 500px;
+  width: 350px;
+}
+
 /* media */
 @media (max-width: 1200px) {
 
@@ -145,13 +230,13 @@
 
   .about-right-h1 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 24px;
+    font-size: 26px;
     padding-top: 3%;
   }
 
   .about-right-h1a {
     font-family: "Gill Sans", sans-serif;
-    font-size: 22px;
+    font-size: 24px;
     padding-top: 2%;
     padding-bottom: 3%;
     padding-left: 2%;
@@ -159,13 +244,13 @@
 
   .about-right-h2 {
     font-family: "Gill Sans", sans-serif;
-    font-size: 19px;
+    font-size: 21px;
     padding-top: 3%;
     color: black;
   }
 
   .about-right-p1 .about-right-p2 {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .hr1 {
@@ -188,22 +273,21 @@
   }
 
   .birth-h1 {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .birth-p1 {
-    font-size: 15px;
+    font-size: 17px;
   }
 
   .birth-p2 {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   /* strength section */
   .strength-image {
     width: 400px;
-    height: 250px;
-    margin-bottom: 3%;
+    height: 300px;
   }
 
   .strength-card {
