@@ -1,0 +1,212 @@
+/* about section */
+#about {
+  text-align: center;
+}
+
+.container-fluid {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.about-nav-myFonta {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
+}
+
+.about-nav-myFontb {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.about-nav-bgclass {
+  background-color: #fff;
+}
+
+.about-left-image {
+  width: 510px;
+  height: 640px;
+}
+
+.about-right-h1 {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 30px;
+  padding-top: 5%;
+}
+
+.about-right-h1a {
+  color: #517bfb;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 30px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.about-right-h2 {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 25px;
+  padding-top: 3%;
+  color: grey;
+}
+
+.about-right-p1 {
+  font-size: 15px;
+}
+
+.about-right-p2 {
+  font-size: 15px;
+  color: #00b300;
+}
+
+.hr1 {
+  width: 1300px;
+  margin-top: 6px;
+  margin-bottom: 2%;
+}
+
+.hr2 {
+  margin-left: 0;
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 3%;
+}
+
+/* birth section */
+#birth {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.birth-image {
+  width: 900px;
+  height: 550px;
+  margin-top: 2%;
+}
+
+.birth-h1 {
+  color: #000;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 28px;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  margin-top: 2%;
+  margin-left: 22%;
+  margin-right: 22%;
+}
+
+.birth-p1 {
+  font-size: 17px;
+  padding-top: 2%;
+  padding-bottom: 0%;
+  padding-right: 6%;
+  padding-left: 6%;
+}
+
+.birth-p2 {
+  color: #00b300;
+  font-size: 22px;
+  padding: 1% 6%;
+  margin-bottom: 3%;
+}
+
+/* strength section */
+#strength {
+  text-align: center;
+  background-color: black;
+}
+
+.strength-h1a {
+  color: grey;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 35px;
+  padding-top: 4%;
+  padding-bottom: 3%;
+}
+
+.strength-group {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+}
+
+.strength-card {
+  max-width: 25rem;
+  text-align: center;
+}
+
+/* media */
+@media (max-width: 1200px) {
+
+  /* about section */
+  .about-left-image {
+    width: 400px;
+    height: 550px;
+  }
+
+  .about-right-h1 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 24px;
+    padding-top: 3%;
+  }
+
+  .about-right-h1a {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 22px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    padding-left: 2%;
+  }
+
+  .about-right-h2 {
+    font-family: "Gill Sans", sans-serif;
+    font-size: 19px;
+    padding-top: 3%;
+    color: black;
+  }
+
+  .about-right-p1 .about-right-p2 {
+    font-size: 12px;
+  }
+
+  .hr1 {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 2%;
+  }
+
+  .hr2 {
+    width: 100%;
+    margin-top: 6px;
+    margin-bottom: 3%;
+  }
+
+  /* birth section */
+  .birth-image {
+    width: 400px;
+    height: 350px;
+    margin-top: 2%;
+  }
+
+  .birth-h1 {
+    font-size: 23px;
+  }
+
+  .birth-p1 {
+    font-size: 15px;
+  }
+
+  .birth-p2 {
+    font-size: 20px;
+  }
+
+  /* strength section */
+  .strength-image {
+    width: 400px;
+    height: 250px;
+    margin-bottom: 3%;
+  }
+
+  .strength-card {
+    max-width: 100%;
+  }
+}
