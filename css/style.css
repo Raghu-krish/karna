@@ -196,7 +196,7 @@
 }
 
 .facts-h1 {
-  padding-top: 0;
+  padding-top: 1%;
   padding-bottom: 1%;
   color: #f2e7d9;
   font-size: 33px;
@@ -217,6 +217,80 @@
 .facts-img {
   height: 500px;
   width: 350px;
+}
+
+/* viratwar section */
+#Kurukshetra {
+  text-align: center;
+}
+
+.Kurukshetra-h1 {
+  width: 100%;
+  color: #666666;
+  background-color: #fff;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 32px;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.Kurukshetra-main {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.Kurukshetra-img2 {
+  width: 450px;
+  height: 500px;
+}
+
+.Kurukshetra-col {
+  width: 100%;
+  color: #666666;
+  font-weight: 300;
+  font-family: "Gill Sans", sans-serif;
+  font-size: 23px;
+  line-height: 1.3;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 4%
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.footer1 {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: grey;
+}
+
+.footer2 {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  color: grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer3 {
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 15px;
+  color: grey;
+  margin: 50px 10px auto 10px;
+  text-decoration: none;
+  color: #2997ff;
+  line-height: 1.47059;
+  font-weight: 400;
+  letter-spacing: inherit;
+}
+
+.ahrefb:hover {
+  text-decoration: underline;
 }
 
 /* media */
@@ -268,7 +342,7 @@
   /* birth section */
   .birth-image {
     width: 400px;
-    height: 350px;
+    height: 550px;
     margin-top: 2%;
   }
 
